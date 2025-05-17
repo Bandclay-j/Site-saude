@@ -1,0 +1,328 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header fixo no topo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #003366;
+  color: white;
+  padding: 15px 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Espaço para o header fixo */
+main {
+  flex: 1;
+  padding: 80px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Controles */
+.controls {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.controls label {
+  font-size: 1.1rem;
+  margin-right: 10px;
+  color: #003366;
+}
+
+.controls select,
+.controls button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #e8e8e8;
+  color: #333;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.controls select:focus,
+.controls button:focus {
+  outline: none;
+  border-color: #003366;
+}
+
+.controls button {
+  background-color: #003366;
+  color: #fff;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #005bb5;
+}
+
+/* Mapa */
+#mapid {
+  height: 600px;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  margin-top: auto; /* para empurrar para baixo */
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 900px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .controls label {
+    margin-bottom: 8px;
+    margin-right: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .controls select,
+  .controls button {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  #mapid {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 1.2rem;
+    padding: 12px 15px;
+  }
+
+  main {
+    padding: 70px 10px 15px;
+  }/* ===== RESET BÁSICO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    padding: 1rem 1.25rem; /* 16px e 20px */
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1000;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2); /* 2px e 5px */
+}
+
+/* ===== MAIN ===== */
+main {
+    flex: 1;
+    padding-top: 5rem; /* Espaço para o header fixo (80px) */
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== CONTROLS ===== */
+.controls {
+    background-color: #fff;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px e 8px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    width: 100%;
+    max-width: 75rem; /* 1200px */
+}
+
+.controls label {
+    font-size: 1.1rem;
+    margin-right: 0.625rem; /* 10px */
+    color: #003366;
+}
+
+.controls select,
+.controls button {
+    padding: 0.625rem 0.9375rem;
+    margin-right: 0.625rem;
+    border-radius: 0.3125rem; /* 5px */
+    border: 1px solid #ccc;
+    background-color: #e8e8e8;
+    color: #333;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.controls select:focus,
+.controls button:focus {
+    outline: none;
+    border-color: #003366;
+}
+
+.controls button {
+    background-color: #003366;
+    color: #fff;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #005bb5;
+}
+
+/* ===== MAPA ===== */
+#mapid {
+    height: 37.5rem; /* 600px */
+    width: 90%;
+    max-width: 75rem; /* 1200px */
+    border-radius: 0.5rem;
+    border: 2px solid #ccc;
+    box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.1); /* 6px e 12px */
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    margin-top: auto; /* para empurrar para baixo */
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 56.25rem) { /* 900px */
+    .controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .controls label {
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .controls select,
+    .controls button {
+        margin: 0.3125rem 0;
+        width: 100%;
+    }
+
+    #mapid {
+        height: 25rem; /* 400px */
+        width: 100%;
+    }
+}
+
+@media (max-width: 30rem) { /* 480px */
+    header {
+        font-size: 1.2rem;
+        padding: 0.75rem 0.9375rem;
+    }
+
+    main {
+        padding-top: 4.375rem; /* 70px */
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        padding-bottom: 0.9375rem;
+    }
+
+    #mapid {
+        height: 18.75rem; /* 300px */
+    }
+
+    .controls label {
+        font-size: 0.9rem;
+    }
+
+    .controls select,
+    .controls button {
+        font-size: 0.9rem;
+    }
+}
+
+  #mapid {
+    height: 300px;
+  }
+
+  .controls label {
+    font-size: 0.9rem;
+  }
+
+  .controls select,
+  .controls button {
+    font-size: 0.9rem;
+  }
+}
