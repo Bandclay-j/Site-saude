@@ -332,7 +332,263 @@ const locaisSaude = [
     tipo: 'Público',
     lat: -16.67455247576011, 
     lng: -49.24491698679967
-  }
+  },
+  {
+    nome: 'Hospital Israelita Albert Einstein - Unidade Goiânia',
+    estado: 'Goiás',
+    cidade: 'Goiânia',
+    tipo: 'Privado',
+    lat: -16.696255057838496, 
+    lng: -49.269585088400035
+  },
+  {
+    nome: 'Hospital Amparo',
+    estado: 'Goiás',
+    cidade: 'Goiânia',
+    tipo: 'Privado',
+    lat: -16.709023476230083, 
+    lng: -49.269143642725474
+  },
+
+  // Hospitais do Maranhão (MA)
+  {
+    nome: 'Hospital Universitário da UFMA (HU-UFMA)',
+    estado: 'Maranhão',
+    cidade: 'São Luís',
+    tipo: 'Público',
+    lat: -2.5243557864666477, 
+    lng: -44.29436102304474
+  },
+  {
+    nome: 'Hospital Carlos Macieira (HCM)',
+    estado: 'Maranhão',
+    cidade: 'São Luís',
+    tipo: 'Público',
+    lat: -2.499910815464671, 
+    lng: -44.28240068719022
+  },
+  {
+    nome: 'Hospital São Domingos',
+    estado: 'Maranhão',
+    cidade: 'São Luís',
+    tipo: 'Privado',
+    lat: -2.5232265760744554, 
+    lng: -44.245156938950906
+  },
+  {
+    nome: 'Clínica São Marcos',
+    estado: 'Maranhão',
+    cidade: 'São Luís',
+    tipo: 'Privado',
+    lat: -2.506345765065462, 
+    lng: -44.296455326329365
+  },
+
+  // Hospitais de Mato Grosso (MT)
+  {
+    nome: 'Hospital Regional Irmã Elza Giovanella',
+    estado: 'Mato Grosso',
+    cidade: 'Rondonópolis',
+    tipo: 'Público',
+    lat: -16.458203389410087, 
+    lng: -54.643424766503784
+  },
+  {
+    nome: 'Hospital Universitário Júlio Müller (HUJM)',
+    estado: 'Mato Grosso',
+    cidade: 'Cuiabá',
+    tipo: 'Público',
+    lat: -15.581101494298572, 
+    lng: -56.079278321913264
+  },
+  {
+    nome: 'Hospital Santa Rosa',
+    estado: 'Mato Grosso',
+    cidade: 'Cuiabá',
+    tipo: 'Privado',
+    lat: -15.579055276318195, 
+    lng: -56.11127432396076
+  },
+  {
+    nome: 'Hospital Femina',
+    estado: 'Mato Grosso',
+    cidade: 'Cuiabá',
+    tipo: 'Privado',
+    lat: -15.591398861622404, 
+    lng: -56.08841251314704
+  },
+
+  // Hospitais de Mato Grosso do Sul (MS)
+  {
+    nome: 'Hospital Regional de Mato Grosso do Sul',
+    estado: 'Mato Grosso do Sul',
+    cidade: 'Campo Grande',
+    tipo: 'Público',
+    lat: -20.51353890324855, 
+    lng: -54.65438642037685
+  },
+  {
+    nome: 'Hospital Universitário Maria Aparecida Pedrossian (HUMAP-UFMS)',
+    estado: 'Mato Grosso do Sul',
+    cidade: 'Campo Grande',
+    tipo: 'Público',
+    lat: -20.499081319702, 
+    lng: -54.61622386341957
+  },
+  {
+    nome: 'Santa Casa de Campo Grande',
+    estado: 'Mato Grosso do Sul',
+    cidade: 'Campo Grande',
+    tipo: 'Privado',
+    lat: -20.452973874501282, 
+    lng: -54.616378312141464
+  },
+  {
+    nome: 'Hospital Proncor',
+    estado: 'Mato Grosso do Sul',
+    cidade: 'Campo Grande',
+    tipo: 'Privado',
+    lat: -20.456841396794573, 
+    lng: -54.60903609638564
+  },
+
+  // Hospitais de Minas Gerais (MG)
+  {
+    nome: 'Hospital das Clínicas da UFMG',
+    estado: 'Minas Gerais',
+    cidade: 'Belo Horizonte',
+    tipo: 'Público',
+    lat: -19.92436915059124, 
+    lng: -43.92814753919892
+  },
+  {
+    nome: 'Hospital João XXIII',
+    estado: 'Minas Gerais',
+    cidade: 'Belo Horizonte',
+    tipo: 'Público',
+    lat: -19.926032300248153, 
+    lng: -43.930981090393395
+  },
+  {
+    nome: 'Hospital Mater Dei',
+    estado: 'Minas Gerais',
+    cidade: 'Belo Horizonte',
+    tipo: 'Privado',
+    lat: -19.92770466771723, 
+    lng: -43.95030339994387
+  },
+  {
+    nome: 'Hospital Felício Rocho',
+    estado: 'Minas Gerais',
+    cidade: 'Belo Horizonte',
+    tipo: 'Privado',
+    lat: -19.923096968152763, 
+    lng: -43.95694193770501
+  },
+
+  // Hospitais do Pará (PA)
+  {
+    nome: 'Hospital Universitário João de Barros Barreto (HUJBB)',
+    estado: 'Pará',
+    cidade: 'Belém',
+    tipo: 'Público',
+    lat: -1.4579218679372856, 
+    lng: -48.46450392308079
+  },
+  {
+    nome: 'Hospital Metropolitano de Urgência e Emergência (HMUE)',
+    estado: 'Pará',
+    cidade: 'Ananindeua',
+    tipo: 'Público',
+    lat: -1.392300503734472, 
+    lng: -48.42001052421742
+  },
+  {
+    nome: 'Hospital Porto Dias',
+    estado: 'Pará',
+    cidade: 'Belém',
+    tipo: 'Privado',
+    lat: -1.437226661874741, 
+    lng: -48.458033281444216
+  },
+  {
+    nome: 'Clínica Saúde Belém',
+    estado: 'Pará',
+    cidade: 'Belém',
+    tipo: 'Privado',
+    lat: -1.4423176411032834, 
+    lng: -48.46169019974675
+  },
+
+  // Hospitais da Paraíba (PB)
+  {
+    nome: 'Hospital Universitário Lauro Wanderley (HULW-UFPB)',
+    estado: 'Paraíba',
+    cidade: 'João Pessoa',
+    tipo: 'Público',
+    lat: -7.135958652273807, 
+    lng: -34.839983562871936
+  },
+  {
+    nome: 'Hospital de Emergência e Trauma Senador Humberto Lucena',
+    estado: 'Paraíba',
+    cidade: 'João Pessoa',
+    tipo: 'Público',
+    lat: -7.116200661251152, 
+    lng: -34.84280175097792
+  },
+  {
+    nome: 'Hospital Nossa Senhora das Neves',
+    estado: 'Paraíba',
+    cidade: 'João Pessoa',
+    tipo: 'Privado',
+    lat: -7.132869847443027, 
+    lng: -34.859041116567916
+  },
+  {
+    nome: 'Unimed João Pessoa',
+    estado: 'Paraíba',
+    cidade: 'João Pessoa',
+    tipo: 'Privado',
+    lat: -7.122388033654169, 
+    lng: -34.86734024456492
+  },
+
+  // Hospitais do Paraná (PR)
+  {
+    nome: 'Hospital de Clínicas da UFPR',
+    estado: 'Paraná',
+    cidade: 'Curitiba',
+    tipo: 'Público',
+    lat: -25.42416021392635, 
+    lng: -49.26194755399307
+  },
+  {
+    nome: 'Hospital do Trabalhador',
+    estado: 'Paraná',
+    cidade: 'Curitiba',
+    tipo: 'Público',
+    lat: -25.484744188463424, 
+    lng: -49.29496386294421
+  },
+  {
+    nome: 'Hospital Evangélico Mackenzie',
+    estado: 'Paraná',
+    cidade: 'Curitiba',
+    tipo: 'Privado/Público',
+    lat: -25.434461180041485, 
+    lng: -49.29215359938413
+  },
+  {
+    nome: 'Hospital Nossa Senhora das Graças',
+    estado: 'Paraná',
+    cidade: 'Curitiba',
+    tipo: 'Privado',
+    lat: -25.422011027087706, 
+    lng: -49.29035858180004
+  },
+
+  // Hospitais de Pernambuco (PE)
 ];
 
 /**
