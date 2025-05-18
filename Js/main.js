@@ -314,6 +314,24 @@ const locaisSaude = [
     tipo: 'Privado',
     lat: -20.360092479238933, 
     lng: -40.29587928869655
+  },
+
+  // Hospitais de Goiás (GO)
+  {
+    nome: 'Hospital Estadual Dr. Alberto Rassi (HGG)',
+    estado: 'Goiás',
+    cidade: 'Goiânia',
+    tipo: 'Público',
+    lat: -16.67936366124293, 
+    lng: -49.270985586779084
+  },
+  {
+    nome: 'Hospital das Clínicas da UFG (HC-UFG)',
+    estado: 'Goiás',
+    cidade: 'Goiânia',
+    tipo: 'Público',
+    lat: -16.67455247576011, 
+    lng: -49.24491698679967
   }
 ];
 
