@@ -13,10 +13,10 @@ let marcadores = [];
 
 // Objeto com as coordenadas centrais de cada estado
 const estadosCoordenadas = {
-    "AC": { coords: [-9.0238, -70.812], zoom: 6 },
-    "AL": { coords: [-9.5713, -36.782], zoom: 7 },
-    "AP": { coords: [0.902, -52.003], zoom: 6 },
-    "AM": { coords: [-3.4168, -65.856], zoom: 6 },
+    "AC": { coords: [-9.973136102579439, -67.81633466021657], zoom: 9 },
+    "AL": { coords: [-9.5713, -36.782], zoom: 9},
+    "AP": { coords: [0.902, -52.003], zoom: 8},
+    "AM": { coords: [-3.4168, -65.856], zoom: 6},
     "BA": { coords: [-12.9714, -38.501], zoom: 7 },
     "CE": { coords: [-3.7172, -38.543], zoom: 7 },
     "DF": { coords: [-15.7801, -47.9292], zoom: 10 },
@@ -589,6 +589,378 @@ const locaisSaude = [
   },
 
   // Hospitais de Pernambuco (PE)
+  {
+    nome: 'Hospital da Restauração Gov. Paulo Guerra',
+    estado: 'Pernambuco',
+    cidade: 'Recife',
+    tipo: 'Público',
+    lat: -8.05350713900241, 
+    lng: -34.89773974572154
+  },
+  {
+    nome: 'Hospital das Clínicas da UFPE',
+    estado: 'Pernambuco',
+    cidade: 'Recife',
+    tipo: 'Público',
+    lat: -8.047433909674771, 
+    lng: -34.94631540528427
+  },
+  {
+    nome: 'Hospital Santa Joana',
+    estado: 'Pernambuco',
+    cidade: 'Recife',
+    tipo: 'Privado',
+    lat: -8.051963849297294, 
+    lng: -34.89818349611155
+  },
+  {
+    nome: 'Real Hospital Português de Beneficência em Pernambuco',
+    estado: 'Pernambuco',
+    cidade: 'Recife',
+    tipo: 'Privado',
+    lat: -8.06405230277503, 
+    lng: -34.89815141766832
+  },
+
+  // Hospitais do Piauí (PI)
+  {
+    nome: 'Hospital Getúlio Vargas (HGV)',
+    estado: 'Piauí',
+    cidade: 'Teresina',
+    tipo: 'Público',
+    lat: -5.087963451902931, 
+    lng: -42.804292144697264
+  },
+  {
+    nome: 'Hospital Universitário da UFPI (HU-UFPI)',
+    estado: 'Piauí',
+    cidade: 'Teresina',
+    tipo: 'Público',
+    lat: -5.060034397776137, 
+    lng: -42.79403802450087
+  },
+  {
+    nome: 'Hospital Unimed Primavera',
+    estado: 'Piauí',
+    cidade: 'Teresina',
+    tipo: 'Privado',
+    lat: -5.057201738397343, 
+    lng: -42.815647619022116
+  },
+  {
+    nome: 'Hospital São Marcos',
+    estado: 'Piauí',
+    cidade: 'Teresina',
+    tipo: 'Privado',
+    lat: -5.090637051942127, 
+    lng: -42.802892277772195
+  },
+
+  // Hospitais do Rio de Janeiro (RJ)
+  {
+    nome: 'Hospital Universitário Clementino Fraga Filho (HUCFF-UFRJ)',
+    estado: 'Rio de Janeiro',
+    cidade: 'Rio de Janeiro',
+    tipo: 'Público',
+    lat: -22.842771518840483, 
+    lng: -43.237429618871396
+  },
+  {
+    nome: 'Hospital Municipal Souza Aguiar',
+    estado: 'Rio de Janeiro',
+    cidade: 'Rio de Janeiro',
+    tipo: 'Público',
+    lat: -22.90831946668623, 
+    lng: -43.18974198961783
+  },
+  {
+    nome: 'Hospital Copa D\'Or',
+    estado: 'Rio de Janeiro',
+    cidade: 'Rio de Janeiro',
+    tipo: 'Privado',
+    lat: -22.965278750702172, 
+    lng: -43.19049721267455
+  },
+  {
+    nome: 'Hospital Samaritano Botafogo',
+    estado: 'Rio de Janeiro',
+    cidade: 'Rio de Janeiro',
+    tipo: 'Privado',
+    lat: -22.946508317855567, 
+    lng: -43.186283261302556
+  },
+
+  // Hospitais do Rio Grande do Norte (RN)
+  {
+    nome: 'Hospital Universitário Onofre Lopes (HUOL-UFRN)',
+    estado: 'Rio Grande do Norte',
+    cidade: 'Natal',
+    tipo: 'Público',
+    lat: -5.780465456496085, 
+    lng: -35.19634030146123
+  },
+  {
+    nome: 'Hospital Monsenhor Walfredo Gurgel (HMWG)',
+    estado: 'Rio Grande do Norte',
+    cidade: 'Natal',
+    tipo: 'Público',
+    lat: -5.8100773447536085, 
+    lng: -35.20344384375998
+  },
+  {
+    nome: 'Hospital Memorial São Francisco',
+    estado: 'Rio Grande do Norte',
+    cidade: 'Natal',
+    tipo: 'Privado',
+    lat: -5.79409371669482, 
+    lng: -35.20583698076221
+  },
+  {
+    nome: 'Hospital Dr. Paulo Gurgel',
+    estado: 'Rio Grande do Norte',
+    cidade: 'Natal',
+    tipo: 'Privado',
+    lat: -5.849098286955337, 
+    lng: -35.20664256725818
+  },
+
+  // Hospitais do Rio Grande do Sul (RS)
+  {
+    nome: 'Hospital de Clínicas de Porto Alegre (HCPA)',
+    estado: 'Rio Grande do Sul',
+    cidade: 'Porto Alegre',
+    tipo: 'Público',
+    lat: -30.03879485961685, 
+    lng: -51.20665300892097
+  },
+  {
+    nome: 'Hospital Nossa Senhora da Conceição',
+    estado: 'Rio Grande do Sul',
+    cidade: 'Porto Alegre',
+    tipo: 'Público',
+    lat: -30.0160761365177, 
+    lng: -51.158564064254946
+  },
+  {
+    nome: 'Hospital Moinhos de Vento',
+    estado: 'Rio Grande do Sul',
+    cidade: 'Porto Alegre',
+    tipo: 'Privado',
+    lat: -30.024959240897267, 
+    lng: -51.20852863120185
+  },
+  {
+    nome: 'Hospital Mãe de Deus',
+    estado: 'Rio Grande do Sul',
+    cidade: 'Porto Alegre',
+    tipo: 'Privado',
+    lat: -30.05902708352367, 
+    lng: -51.22899905901498
+  },
+
+  // Hospitais de Rondônia (RO)
+  {
+    nome: 'Hospital de Base Dr. Ary Pinheiro',
+    estado: 'Rondônia',
+    cidade: 'Porto Velho',
+    tipo: 'Público',
+    lat: -8.736311708555304, 
+    lng: -63.8901326131936
+  },
+  {
+    nome: 'Hospital Regional de Cacoal',
+    estado: 'Rondônia',
+    cidade: 'Cacoal',
+    tipo: 'Público',
+    lat: -11.415694351561132, 
+    lng: -61.463649985882206
+  },
+  {
+    nome: 'Hospital Prontocordis',
+    estado: 'Rondônia',
+    cidade: 'Porto Velho',
+    tipo: 'Privado',
+    lat: -8.764688548822072, 
+    lng: -63.89880378357091
+  },
+  {
+    nome: 'Hospital das Clínicas - HC',
+    estado: 'Rondônia',
+    cidade: 'Porto Velho',
+    tipo: 'Privado',
+    lat: -8.7561683183849, 
+    lng: -63.89364770290345
+  },
+
+  // Hospitais de Roraima (RR)
+  {
+    nome: 'Hospital Geral de Roraima (HGR)',
+    estado: 'Roraima',
+    cidade: 'Boa Vista',
+    tipo: 'Público',
+    lat: 2.833518586236693, 
+    lng: -60.68813137945017
+  },
+  {
+    nome: 'Hospital Materno Infantil Nossa Senhora de Nazareth (HMI)',
+    estado: 'Roraima',
+    cidade: 'Boa Vista',
+    tipo: 'Público',
+    lat: 2.8302001799991876, 
+    lng: -60.66721373426938
+  },
+  {
+    nome: 'Hospital Ville Roy',
+    estado: 'Roraima',
+    cidade: 'Boa Vista',
+    tipo: 'Privado',
+    lat: 2.8062097124240424, 
+    lng: -60.6849829681622
+  },
+  {
+    nome: 'Hospital Unimed Boa Vista',
+    estado: 'Roraima',
+    cidade: 'Boa Vista',
+    tipo: 'Privado',
+    lat: 2.816969328400138, 
+    lng: -60.68248690020689
+  },
+
+  // Hospitais de Santa Catarina (SC)
+  {
+    nome: 'Hospital Governador Celso Ramos',
+    estado: 'Santa Catarina',
+    cidade: 'Florianópolis',
+    tipo: 'Público',
+    lat: -27.588546116240533, 
+    lng: -48.550699352189596
+  },
+  {
+    nome: 'Hospital Regional de São José Dr. Homero de Miranda Gomes',
+    estado: 'Santa Catarina',
+    cidade: 'São José',
+    tipo: 'Público',
+    lat: -27.610152708397237, 
+    lng: -48.63037147048273
+  },
+  {
+    nome: 'Hospital SOS Cardio',
+    estado: 'Santa Catarina',
+    cidade: 'Florianópolis',
+    tipo: 'Privado',
+    lat: -27.57410573788064, 
+    lng: -48.51477371110865
+  },
+  {
+    nome: 'Hospital Baía Sul',
+    estado: 'Santa Catarina',
+    cidade: 'Florianópolis',
+    tipo: 'Privado',
+    lat: -27.601158308759608, 
+    lng: -48.544957077419646
+  },
+
+  // Hospitais de São Paulo (SP)
+  {
+    nome: 'Hospital das Clínicas da Faculdade de Medicina da USP',
+    estado: 'São Paulo',
+    cidade: 'São Paulo',
+    tipo: 'Público',
+    lat: -23.55780009577551, 
+    lng: -46.66985980083225
+  },
+  {
+    nome: 'Hospital São Paulo (UNIFESP)',
+    estado: 'São Paulo',
+    cidade: 'São Paulo',
+    tipo: 'Público',
+    lat: -23.597454487523578, 
+    lng: -46.64374149614656
+  },
+  {
+    nome: 'Hospital Sírio-Libanês',
+    estado: 'São Paulo',
+    cidade: 'São Paulo',
+    tipo: 'Privado',
+    lat: -23.557184650299885, 
+    lng: -46.65346176572874
+  },
+  {
+    nome: 'Hospital Albert Einstein',
+    estado: 'São Paulo',
+    cidade: 'São Paulo',
+    tipo: 'Privado',
+    lat: -23.599974446156313, 
+    lng: -46.71525581858996
+  },
+
+  // Hospitais de Sergipe (SE)
+  {
+    nome: 'Hospital Universitário de Sergipe (HU-UFS)',
+    estado: 'Sergipe',
+    cidade: 'Aracaju',
+    tipo: 'Público',
+    lat: -10.893678928835627, 
+    lng: -37.06466488254307
+  },
+  {
+    nome: 'Hospital de Urgência de Sergipe Governador João Alves Filho',
+    estado: 'Sergipe',
+    cidade: 'Aracaju',
+    tipo: 'Público',
+    lat: -10.914021903922627, 
+    lng: -37.09058512895889
+  },
+  {
+    nome: 'Hospital Primavera',
+    estado: 'Sergipe',
+    cidade: 'Aracaju',
+    tipo: 'Privado',
+    lat: -10.949649106159166, 
+    lng: -37.06544463788523
+  },
+  {
+    nome: 'Hospital São Lucas',
+    estado: 'Sergipe',
+    cidade: 'Aracaju',
+    tipo: 'Privado',
+    lat: -10.924475534330046, 
+    lng: -37.052052356430096
+  },
+
+  // Hospitais do Tocantins (TO)
+  {
+    nome: 'Hospital Geral de Palmas (HGP)',
+    estado: 'Tocantins',
+    cidade: 'Palmas',
+    tipo: 'Público',
+    lat: -10.196111924474343, 
+    lng: -48.33580516169698
+  },
+  {
+    nome: 'Hospital Regional de Araguaína (HRA)',
+    estado: 'Tocantins',
+    cidade: 'Araguaína',
+    tipo: 'Público',
+    lat: -7.193881105001464, 
+    lng: -48.21057065860771
+  },
+  {
+    nome: 'Hospital Unimed Palmas',
+    estado: 'Tocantins',
+    cidade: 'Palmas',
+    tipo: 'Privado',
+    lat: -10.20927358330738, 
+    lng: -48.33643761115359
+  },
+  {
+    nome: 'Hospital Oswaldo Cruz',
+    estado: 'Tocantins',
+    cidade: 'Palmas',
+    tipo: 'Privado',
+    lat: -10.208762545504054, 
+    lng: -48.33616390254192
+  }
 ];
 
 /**
