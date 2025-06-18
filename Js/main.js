@@ -21,7 +21,10 @@ let marcadores = [];
 function adicionarMarcadores(locais) {
     locais.forEach(local => {
         const marker = L.marker([local.lat, local.lng])
-            .bindPopup(`<b>${local.nome}</b><br>${local.cidade}, ${local.estado}<br>${local.tipo}`)
+            .bindPopup(`<img src="${local.img}" alt="${local.nome}" style="width:300px; height:auto; border-radius:8px;">
+                <br><b>${local.nome}</b>
+                <br>${local.cidade}, ${local.estado}
+                <br>${local.tipo}`)
             .addTo(map);
         marcadores.push(marker);
     });
